@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  height: fit-content;
+  overflow: auto;
+  color: #40514E;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #beebe9;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+.devloper {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.work {
+  display: inline-block;
+}
+
+/*
+.w3-display-hover {
+    display: none;
+}
+.w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+  }
+*/
+.image-skill {
+  position: relative;
+}
+
+.image-chillie {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 30%;
+}
+
+.skill-link {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-skill:hover .image-chillie {
+  opacity: 0.3;
+}
+
+.image-skill:hover .skill-link {
+  opacity: 1;
+}
+
+.work-description {
+  padding-left: 68px;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-msg {
+  margin-bottom: 60px;
+}
+
+.btn {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+
+.btn:hover {
+  background-color: #378de5;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #11999E;
+  padding: 50px 0 10px;
+}
+
+.footer-link {
+  color: #66BFBF;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
